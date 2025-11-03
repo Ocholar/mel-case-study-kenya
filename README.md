@@ -364,4 +364,6 @@ This analysis is provided for educational and programme evaluation purposes. Ple
 
 ---
 
-**Last Updated:** November 3, 2025**Repository:** [https://github.com/Ocholar/mel-case-study-kenya](https://github.com/Ocholar/mel-case-study-kenya)
+**Last Updated:** November 3, 2025
+
+**Repository:** [https://github.com/Ocholar/mel-case-study-kenya](https://github.com/Ocholar/mel-case-study-kenya)
