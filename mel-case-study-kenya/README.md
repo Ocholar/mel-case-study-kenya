@@ -4,7 +4,10 @@
 
 This repository contains a comprehensive Monitoring, Evaluation, and Learning (MEL) analysis of 5,016 Micro, Small, and Medium Enterprises (MSMEs) in Kenya's manufacturing sector. The analysis focuses on employment creation, business growth, and the impact of training interventions on firm productivity and gender equity.
 
-**Project Status:** ✅ Complete**Analysis Date:** November 2025**Data Source:** Kenya MSME Manufacturing Survey**Sample Size:** 5,016 firms across multiple counties
+**Project Status:** ✅ Complete
+**Analysis Date:** November 2025
+**Data Source:** Kenya MSME Manufacturing Survey
+**Sample Size:** 5,016 firms across multiple counties
 
 ---
 
@@ -72,19 +75,19 @@ mel-case-study-kenya/
   - Issue: Spelling variations and extra characters (e.g., 'Nairobii', 'Kisu mu', 'Nakuru.')
   - Solution: Standardized all county names using string cleaning and mapping
 
-1. **Duplicate IDs**
+2. **Duplicate IDs**
   - Issue: Multiple firms shared the same ID
   - Solution: Retained all rows as unique observations; flagged for investigation
 
-1. **Missing Values**
+3. **Missing Values**
   - Issue: Gaps in Revenue and Employees columns
   - Solution: Imputed with median values (robust to outliers)
 
-1. **Outliers in Employee Counts**
+4. **Outliers in Employee Counts**
   - Issue: Extreme values (max: 1,000 employees for a 'Micro' firm)
   - Solution: Capped at 50 employees (upper bound for 'Small' firm definition)
 
-1. **Unstructured Production Text**
+5. **Unstructured Production Text**
   - Issue: ISIC codes embedded in long text strings
   - Solution: Extracted 4-digit ISIC codes and created structured Sector variable
 
@@ -185,12 +188,12 @@ The analysis uses a simplified ISIC Rev. 4 classification system:
   - Provide access to finance, business mentoring, and growth coaching
   - Address structural barriers to employment expansion
 
-1. **Deepen Training Impact**
+2. **Deepen Training Impact**
   - Investigate why training has greater scaling effects on male-owned firms
   - Adapt training content and delivery to address female-owned firm constraints
   - Consider gender-specific training modules and support mechanisms
 
-1. **Sector-Specific Strategy**
+3. **Sector-Specific Strategy**
   - Tailor programme support to dominant sectors (Food, Textiles, Wood)
   - Engage sector associations for industry-specific technical assistance
   - Develop value chain interventions for high-concentration sectors
@@ -303,8 +306,10 @@ openpyxl>=3.6.0
 ## Contact & Support
 
 **Analyst:** Reagan Ochola
-**Email:** [reaochola@gmail.com
-](mailto:manus.ai@tripleline.com)**Organization:** XXX Consulting**Analysis Date:** November 2025
+**Email:** reaochola@gmail.com
+**Organization:
+** XXX Consulting
+**Analysis Date:** November 2025
 
 For questions about the analysis, methodology, or data, please refer to the detailed documentation in the `/documentation` folder.
 
