@@ -306,9 +306,11 @@ openpyxl>=3.6.0
 ## Contact & Support
 
 **Analyst:** Reagan Ochola
+
 **Email:** reaochola@gmail.com
-**Organization:
-** XXX Consulting
+
+**Organization:** XXX Consulting
+
 **Analysis Date:** November 2025
 
 For questions about the analysis, methodology, or data, please refer to the detailed documentation in the `/documentation` folder.
