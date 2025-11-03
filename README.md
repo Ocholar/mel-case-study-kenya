@@ -5,8 +5,11 @@
 This repository contains a comprehensive Monitoring, Evaluation, and Learning (MEL) analysis of 5,016 Micro, Small, and Medium Enterprises (MSMEs) in Kenya's manufacturing sector. The analysis focuses on employment creation, business growth, and the impact of training interventions on firm productivity and gender equity.
 
 **Project Status:** ✅ Complete
+
 **Analysis Date:** November 2025
+
 **Data Source:** Kenya MSME Manufacturing Survey
+
 **Sample Size:** 5,016 firms across multiple counties
 
 ---
@@ -306,9 +309,11 @@ openpyxl>=3.6.0
 ## Contact & Support
 
 **Analyst:** Reagan Ochola
+
 **Email:** reaochola@gmail.com
-**Organization:
-** XXX Consulting
+
+**Organization:** XXX Consulting
+
 **Analysis Date:** November 2025
 
 For questions about the analysis, methodology, or data, please refer to the detailed documentation in the `/documentation` folder.
