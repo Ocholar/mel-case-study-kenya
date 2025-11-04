@@ -585,6 +585,9 @@ Max:      1,200,000
 ---
 
 **Document Version:** 1.0  
+
 **Last Updated:** November 3, 2025  
-**Author:** Manus AI  
-**Organization:** Triple Line Consulting
+
+**Author:** Reagan Ochola
+
+**Organization:** XXX Consulting
